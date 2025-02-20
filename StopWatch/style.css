@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:black;
+}
+#myh1{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(244, 243, 243);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid;    
+    border-radius: 50px;
+    background-color: white;
+}
+#display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%,0.75);
+    margin-bottom: 25px;
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px ;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
+#STARTBTN{
+    background-color: rgb(42, 192, 42);
+}
+#STARTBTN:hover{
+    background-color: rgb(5, 251, 5);
+}
+#STOPBTN{
+    background-color: rgb(168, 45, 45);
+   
+}
+#STOPBTN:hover{
+    background-color:rgb(251, 10, 10);
+}
+#RESETBTN{
+    background-color: rgb(44, 44, 212);
+}
+#RESETBTN:hover{
+    background-color: rgb(79, 119, 240);
+}
+#status{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border:bisque;
+    border-radius: 20px;
+    background-color: aquamarine;
+    color: black;
+
+}
+#status:hover{
+    background-color: rgb(10, 253, 172) ;
+}
+
